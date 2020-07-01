@@ -1,0 +1,107 @@
+body{
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    height: 720px;
+    padding: 5%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(206, 54, 147);
+}
+h2{
+    font-size: 40px;
+    margin-top: 50px;
+}
+p{
+    color: #707070;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.name-part{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom ;
+}
+.same-area{
+    width: 34%;
+    float: left;
+    margin-left: 3%;
+    padding: 3% 5%; 
+}
+.same-area img{
+    width: 100%;  
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(206, 54, 147),rgb(197, 35, 89));
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.link-button:hover{
+    color: black;
+    background-image: linear-gradient(45deg,rgb(218, 215, 70),yellow);
+    font-weight: 800;
+    padding: 18px 35px;
+}
+.biography-part{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.last-post{
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+.last-post img{
+   width: 100%;
+}
+.latest-part{
+   background-image: url("images/latest-work-bg.png");
+   background-repeat: no-repeat;
+   background-position: top; 
+}
+.my-work{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.footer-top{
+   background-image: url("images/footer-bg.png");
+   background-repeat: no-repeat;
+   background-position: top;
+   text-align: center;
+}
+.client-part h5{
+   color: #707070;
+}
+.client-text{
+    margin-top: 10%;
+}
+.contact-option{
+    margin: 0 auto;
+    width: 670px;
+    height: 100px;
+    background-image: linear-gradient(45deg,rgb(206, 54, 147),rgb(197, 35, 89));
+    padding: 10px 40px 40px 40px;
+    border-radius: 2%;
+    margin-top: 5%;
+}
+.contact-option p{
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.contact-option h5{
+    color:#fae5ef;
+}
+.footer-section p{
+    text-align: center;
+    font-size: 13px;
+}
